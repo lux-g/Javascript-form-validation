@@ -52,6 +52,8 @@ function setSuccessFor(input) {
     formGroup.className = 'form-group success'
 };
 
+
+//REGEX FOR PASSWORD
 function isPassword(password) {
     return /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password);
 }
